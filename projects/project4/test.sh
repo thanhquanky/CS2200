@@ -73,10 +73,10 @@ echo ""
 if [ $total -eq 288 ]; then
 	echo "You passed all the test. Congrats dude!";
 else
-	if [ $total -lt 200 ]; then
+	if [ $total -gt 200 ]; then
 		echo "You still missed some test. Keep trying";
 	else
-		if [ $total -lt 100 ]; then
+		if [ $total -gt 100 ]; then
 			echo "You missed lots of tests. Try harder";
 		else
 			echo "I am sorry man";
