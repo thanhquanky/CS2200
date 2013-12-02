@@ -1,4 +1,4 @@
 CS2200
 ======
 
-CS2200 test
+The collection of testing files for homeworks and projects of CS2200
