@@ -89,13 +89,13 @@ echo "Passed $passedTest / $totalTest"
 if [ $passedTest -eq 100 ]; then
   echo "Congrats! I'm impressed!"
 else
-  if [ $passTest -gt 90 ]; then
+  if [ $passedTest -gt 90 ]; then
     echo "You are deserved an A"
   else 
-    if [ $passTest -gt 80 ]; then
+    if [ $passedTest -gt 80 ]; then
       echo "Try a bit harder!!!"
     else
-      if [ $passTest -gt 70 ]; then
+      if [ $passedTest -gt 70 ]; then
 	echo "Well, all I can say is you're passed!"
       else
 	echo "Hmm, there are many things need to be done..."
