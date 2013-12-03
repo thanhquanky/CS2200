@@ -77,6 +77,7 @@ while [ $testRun -lt $totalTest ]; do
       echo -en "$red"
       echo "Fail at corruption rate equals $corruptionRate, probably terminated early due to machine's speed"
       echo -en "$default"
+      echo "$out"
     fi;
     testRun=$(echo "$testRun + 1" | bc)
     #increase corruptionRate
